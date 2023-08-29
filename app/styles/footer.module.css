@@ -1,0 +1,20 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #403d39; */
+    padding: 1.57em 1.25em;
+  }
+  
+  footer .logo {
+    text-align: center;
+    color: #dcdcdc;
+    font-size: 2rem;
+  }
+  
+  .icon {
+    color: #f6f4fa;
+    margin-left: 0.3em;
+    font-size: 1.875rem;
+  }
