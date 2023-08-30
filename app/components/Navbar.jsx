@@ -15,11 +15,11 @@ const Navbar = () => {
     }
     return (     
         <nav className={styles.navHolder}>
-        
+            <div className={styles.logo}>
                 <Link href="/">
-                   <h1 className={styles.logo}>Dala Afrika</h1>
+                   <h1 className={styles.logoTitle}>Dala Afrika</h1>
                 </Link>
-            
+            </div>
             <div className={styles.navLinkHolder} ref={navRef}>
                 <Link onClick={showNav} className={styles.navLink} href="/about">About</Link>
                 <Link onClick={showNav} className={styles.navLink} href="/services">Services</Link>
