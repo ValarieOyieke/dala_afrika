@@ -17,11 +17,138 @@ body {
 
 body {
    background-color: #f3eff5;
-   color: #0d0a0b;
+   color: #fcfffc;
+   /*  #2d3a3a
+   #0d0a0b */
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+/* CONTACT US */
+
+.contacts{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.contactForm{
+  padding: 40px;
+}
+
+.contactForm h2{
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 0.46em;
+  color: #40916c;
+  letter-spacing: 0.2em;
+}
+
+.contactForm h2,p{
+  text-align: center;
+}
+
+.contactForm p {
+  color : #2d3a3a;
+}
+
+ form{
+  margin-top: 2em;
+ }
+
+.contactForm .inputBox{
+  position: relative;
+  width:100%;
+  margin-top: 0.98em;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+  width: 100%;
+  font-size: 1rem;
+  font-family: inherit;
+  padding: 0.3125em 0;
+  margin: 0.625em 0;
+  border: none;
+  border-bottom: 1px solid #333;
+  outline: none;
+  resize: none;
+}
+
+.contactForm .inputBox span{
+  position: absolute;
+  left: 0;
+  padding: 0.3125em 0;
+  margin: 0.625em 0;
+  font-size: 1rem;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
+  letter-spacing: 0.3em;
+  font-family: inherit;
+}
+
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span
+{
+   font-size: 0.75rem;
+   transform: translateY(-20px);
+}
+
+
+.contactForm .inputBox input[type="submit"]
+{
+  width: 100%;
+  background: #40916c;
+  color: #f5e4d6;
+  cursor: pointer;
+  border: none;
+  padding: 0.625em;
+  font-size: 1.2rem;
+  border-radius: 20px;
+}
+
+.contactForm .inputBox input[type="submit"]:hover,
+.contactForm .inputBox input[type="submit"]:active{
+  background: #1b4332;
+}
+
+
+.hero{
+  display: flex;
+  gap: 2em;
+  /* width: 100%; */
+}
+
+.hero-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2em 0;
+}
+
+.hero-text h1{
+  font-size: 4rem;
+  /* color: #248232; */
+}
+
+.hero-text p{
+  text-align: left;
+}
+
+
+@media (min-width: 768px) {
+ 
+  .contactForm{
+    width: 45%;
+  }
 }
 

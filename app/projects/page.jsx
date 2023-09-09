@@ -1,3 +1,8 @@
+export const metadata = {
+    title: 'Dala Afrika | Projects',
+  }
+
+
 const Projects = () => {
     return ( 
         <main>
