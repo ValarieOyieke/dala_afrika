@@ -3,7 +3,7 @@ import Image from "next/image";
 const Hero = () => {
     return (  
       <section className="hero">
-       <div className="hero-text"> 
+       <div className="hero-section-text"> 
         <h1>Building the future of Web3 in Africa</h1>
         <p>A Web3 community in Africa that educates, informs, and onboards Africans on blockchain and Web3 technologies. 
             We collaborate on projects and initiatives with blockchains seeking to enter the African space, 

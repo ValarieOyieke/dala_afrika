@@ -21,12 +21,12 @@ const Navbar = () => {
                 </Link>
             </div>
             <div className={styles.navLinkHolder} ref={navRef}>
-                <Link onClick={showNav} className={styles.navLink} href="/">Home</Link>
-                <Link onClick={showNav} className={styles.navLink} href="/team">Team</Link>
-                <Link onClick={showNav} className={styles.navLink} href="/services">Services</Link>
-                <Link onClick={showNav} className={styles.navLink} href="/projects">Projects</Link>
-                <Link onClick={showNav} className={styles.navLink} href="/blog">Blog</Link>
-                <Link onClick={showNav} className={styles.navLink} href="/contact"><button className={styles.contactBtn}>Contact Us</button></Link>
+                <Link onClick={showNav} className={styles.navLink} href="/">HOME</Link>
+                <Link onClick={showNav} className={styles.navLink} href="/team">TEAM</Link>
+                <Link onClick={showNav} className={styles.navLink} href="/services">SERVICES</Link>
+                <Link onClick={showNav} className={styles.navLink} href="/projects">PROJECTS</Link>
+                <Link onClick={showNav} className={styles.navLink} href="/blog">BLOG</Link>
+                <Link onClick={showNav} className={styles.navLink} href="/contact"><button className={styles.contactBtn}>GET IN TOUCH</button></Link>
                 <button onClick={showNav} className={classNames(styles.navBtn, styles.navBtnClose)}><FaTimes /></button>
             </div>
             <button onClick={showNav} className={styles.navBtn}><FaBars /></button>

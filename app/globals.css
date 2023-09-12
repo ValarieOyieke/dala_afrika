@@ -9,15 +9,12 @@
   margin: 0;
 }
 
-html,
-body {
-  /* max-width: 100vw; */
-  overflow-x: hidden;
-}
 
 body {
+   overflow-x: hidden;
    background-color: #f3eff5;
-   color: #fcfffc;
+   color: #c7bdbd;
+   font-family: var(--font-open-sans)
    /*  #2d3a3a
    #0d0a0b */
 }
@@ -123,11 +120,11 @@ a {
 
 .hero{
   display: flex;
-  gap: 2em;
+  gap: 3em;
   /* width: 100%; */
 }
 
-.hero-text{
+.hero-section-text{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -135,12 +132,12 @@ a {
   padding: 2em 0;
 }
 
-.hero-text h1{
+.hero-section-text h1{
   font-size: 4rem;
-  /* color: #248232; */
+  color: #f3eff5;
 }
 
-.hero-text p{
+.hero-section-text p{
   text-align: left;
 }
 
