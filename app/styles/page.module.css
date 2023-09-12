@@ -4,14 +4,43 @@
   align-items: center;
   padding: 3em;
   min-height: 100vh;
-  background-color: #0d0a0b;
+  background-color: #0f0f0f;
 }
 
 
 .about{
   margin-top: 4em;
+  text-align: center;
+}
+
+
+.about h2 {
+  color: #f3eff5;
+  font-size: 2.5rem;
 }
 
 .cards{
   display: flex;
+  justify-content: space-evenly;
+}
+
+.card{
+  margin: 3em;
+  width: 50%;
+
+}
+
+.moreBtn{
+  font-family: inherit;
+  font-weight: 500;
+  padding: 1.2em;
+  border: 1px solid #464347;
+  color: #f3eff5;
+  cursor: pointer;
+  background: none;
+}
+
+.moreBtn:hover,
+.moreBtn:active{
+  border: 1.2px solid #f3eff5;
 }
